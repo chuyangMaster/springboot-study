@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div style="margin-left: 400px">
+        <form th:action="@{/tpl/getProperty}" th:method="${method}">
+            <input th:type="text" th:name="${paraname}" th:value="${value}" />
+            <input type="submit" th:onclick="btnClick()" value="按钮">
+        </form>
+    </div>
+
+</body>
+
+<script type="text/javascript">
+
+    function btnClick(){
+        alert("按钮单机了");
+    }
+
+</script>
+
+</html>

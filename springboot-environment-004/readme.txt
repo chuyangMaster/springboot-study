@@ -1,0 +1,2 @@
+该module主要测试springboot的多环境配置，即在不同环境下（dev/test/prod），使用不同的配置
+与Spring框架中的@Profile注解类似

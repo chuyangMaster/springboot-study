@@ -1,0 +1,11 @@
+spring:
+  #springmvc的视图解析器
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+
+server:
+  port: 8000
+  servlet:
+    context-path: /myjsp

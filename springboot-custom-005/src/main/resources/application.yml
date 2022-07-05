@@ -1,0 +1,6 @@
+mycar:
+  brand: BYD
+  price: 30000
+
+server:
+  port: 9000

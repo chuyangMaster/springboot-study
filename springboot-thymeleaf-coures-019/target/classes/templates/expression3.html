@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div style="margin-left: 400px">
+        <h3>链接变量表达式：@{链接 url} 可以在 URL 路径中动态获取数据,用于a、form、img、link、script的路径
+        </h3>
+        <p>链接到绝对地址</p>
+        <a th:href="@{https://www.baidu.com}">百度</a>
+        <br/>
+        <p>链接到相对地址</p>
+        <a th:href="@{query/student}">相对地址没有传参数</a>
+        <br/>
+        <p>链接到相对地址，传参数方式1</p>
+        <a th:href="@{'query/student?id=' + ${stuId}}">相对地址传参数方式1</a>
+        <br/>
+        <p>链接到相对地址，传参数方式2</p>
+        <a th:href="@{query/school(id=${stuId},name='lisi')}">相对地址传参数方式2，常用</a>
+        <br/>
+
+    </div>
+</body>
+</html>

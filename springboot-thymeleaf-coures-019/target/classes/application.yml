@@ -1,0 +1,13 @@
+spring:
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+
+
+server:
+  port: 8000
+  servlet:
+    context-path: /myboot

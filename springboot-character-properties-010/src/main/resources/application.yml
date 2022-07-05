@@ -1,0 +1,8 @@
+server:
+  port: 9001
+  servlet:
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+    context-path: /myboot

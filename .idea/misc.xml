@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springboot-jar-017" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-war-016" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/001-pre-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-first/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-second/pom.xml" />
+        <option value="E:/springboot-three/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-four/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mvc-003/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-environment-004/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-custom-005/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-commandlinerunner/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-interceptor-006/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-servlet-007/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-filter-008/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-character-servlet-009/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-character-properties-010/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mysql-011/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mapperscan-012/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rest-014/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-redis-015/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-war-016/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-jar-017/pom.xml.bak" />
+        <option value="$PROJECT_DIR$/springboot-jar-017/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-thymeleaf-018/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-thymeleaf-coures-019/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
